@@ -1,0 +1,3 @@
+username = abhaysingh80766
+pass = u02I2plzntTMDCUB
+mongodb+srv://abhaysingh80766:abhaysingh80766@namastenode.umr9h.mongodb.net/
