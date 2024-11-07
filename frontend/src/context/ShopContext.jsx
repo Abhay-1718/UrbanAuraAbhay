@@ -115,7 +115,7 @@ const ShopContextProvider = (props) => {
   };
 
   const getUserCart = async (token) => {
-    console.log("Fetching cart for token:", token);
+
     try {
       const response = await axios.post(
         backendUrl + "/api/cart/get",
@@ -124,7 +124,7 @@ const ShopContextProvider = (props) => {
       );
       if (response.data.success) {
         setCartItems(response.data.cartData);
-        console.log("Cart data set:", response.data.cartData);
+     
       }
     } catch (error) {
       console.log(error);
